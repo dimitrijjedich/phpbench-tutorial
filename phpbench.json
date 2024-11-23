@@ -1,6 +1,7 @@
 {
   "$schema":"./vendor/phpbench/phpbench/phpbench.schema.json",
   "runner.bootstrap": "vendor/autoload.php"
+  "runner.path": "tests/Benchmark",
   "report.generators": {
     "consumption_of_time": {
       "extends": "default",
@@ -11,4 +12,5 @@
         "mode"
       ]
     }
+  }
 }
