@@ -10,7 +10,7 @@ class TimeConsumerBench
 {
     #[Revs(1000)]
     #[Iterations(5)]
-    public function benchConsume(): void
+    public function benchTime(): void
     {
         $consumer = new TimeConsumer();
         $consumer->consume();
